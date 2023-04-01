@@ -1,0 +1,192 @@
+*{ margin: 0%;
+}
+body{
+    background-color: silver;
+}
+
+.header-section h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: black;
+}
+
+.header-section p {
+  font-size: 16px;
+  color: black;
+  margin-top: 12px;
+}
+
+
+.header-section{ text-align: left;
+                 font-family: 'Courier New', Courier, monospace;
+                 width: 85%;
+                 padding: 15px 30px;
+                 border-radius: 5px;
+                 border: none;
+}
+ #header{ background-color: silver;
+           background-image: url(https://media.istockphoto.com/id/1414699113/photo/small-robot-assistant-work-with-graphic-display.jpg?b=1&s=170667a&w=0&k=20&c=m8y0GFWEyDOsbqUGwOtMeiL5W2NVpDaCA522wsAm6B4=);
+           background-repeat: no-repeat;   
+           background-size: 100%;
+           height: 100vh;}
+
+.subtext{ font-size: 50px;
+    font-weight: bolder;
+}
+
+#btn {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: black;
+    color: silver;
+    cursor: pointer;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#btn:hover {box-shadow: 0px 3px 8px
+    rgba(223, 14, 14, 0.05);
+}
+
+.form-mb-3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+
+.container{ 
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color:green;
+  position:absolute;
+  width: fit-content;
+  right: 300px;
+  opacity:;
+
+
+  
+}
+#male{ font-size: 25px;
+       font-family: 'Courier New', Courier, monospace;
+}
+.wrapper {
+  margin: auto;
+  max-width: 500;
+  width: 100%;
+  background: none;
+  padding: 10px;
+  border: #010811;
+  font-weight: 800;
+}
+.form-title {
+      margin: auto;
+      text-align: center;
+      
+}
+.form-title h2 {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 40px;
+  color: silver;
+}
+
+.form-title p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: black;
+  margin-top: 12px;
+}
+
+.input-flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.input-flex > div {
+  width: 50%;
+  align-items: center;
+}
+
+.input {
+  text-align: center;
+  width: 85%;
+  padding: 13px 20px;
+  border-radius: 10px;
+  border: 1px solid #010811;
+  background: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+}
+
+.input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.label {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  display: block;
+  margin: auto;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.stroke-current {
+  stroke: currentColor;
+}
+#supportCheckbox:checked ~ div span {
+  opacity: 1;
+}
+
+.checkbox-label {display: flex; 
+  cursor: pointer; 
+  user-select: none; 
+  font-size: 16px; 
+  line-height: 24px; 
+  color: #536387;}
+
+.checkbox-label a {margin-left: 
+  5px;
+  color: #6a64f1;
+}
+
+.input-checkbox { position: absolute; 
+width: 1px; 
+height: 1px; padding: 0; 
+margin: -1px; overflow: 
+hidden; clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+}
+.checkbox-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      margin-right: 16px;
+      margin-top: 2px;
+      border: 0.7px solid #dde3ec;
+      border-radius: 3px;
+    }
+#subtext2{
+  font-size: 20px;
+}
+#subtext3{
+  font-family: 'Courier New', Courier, monospace;
+  color: #010811;
+  font-weight: 800;
+}
